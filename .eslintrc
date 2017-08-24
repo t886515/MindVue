@@ -3,6 +3,7 @@
   plugins: ["vue"],
   rules: {
     'vue/jsx-uses-vars': 2,
+    "no-new": 0
   },
   "env": {
     "jest": true

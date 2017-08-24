@@ -46,7 +46,6 @@ npm run test
 npm run build
 ```
 
-
 ### Roadmap
 
 View the project roadmap [here](https://github.com/breakfastfordinner/MindVue/issues)

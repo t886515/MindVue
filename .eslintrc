@@ -4,4 +4,7 @@
   rules: {
     'vue/jsx-uses-vars': 2,
   },
+  "env": {
+    "jest": true
+  }
 }

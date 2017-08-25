@@ -9,11 +9,8 @@ const PORT = 3000;
 app.use(cors());
 app.use(parser.json());
 
-app.use(
-  session({
-    secret: 'fbi surveillance van 4',
-  }),
-);
+const secret = { secret: 'fbi surveillance van 4' };
+app.use(session(secret));
 
 // page routes
 app.get('/', pages.rootHandler);

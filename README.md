@@ -1,3 +1,5 @@
+[![Build Status](https://img.shields.io/travis/breakfastfordinner/MindVue.svg?style=flat-square)](https://travis-ci.org/breakfastfordinner/MindVue)
+
 # mindvue
 
 > A mindmap using Vue.js and D3.js
@@ -45,7 +47,6 @@ npm run test
 # build for production with minification
 npm run build
 ```
-
 
 ### Roadmap
 

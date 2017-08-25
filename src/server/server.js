@@ -1,6 +1,5 @@
 const app = require('express')();
 const parser = require('body-parser');
-const path = require('path');
 const cors = require('cors');
 const session = require('express-session');
 const pages = require('./pageHandler.js');
@@ -12,8 +11,8 @@ app.use(parser.json());
 
 app.use(
   session({
-    secret: 'fbi surveillance van 4'
-  })
+    secret: 'fbi surveillance van 4',
+  }),
 );
 
 // page routes

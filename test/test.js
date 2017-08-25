@@ -17,7 +17,6 @@ describe('server', function() {
       chai.request(app)
         .get('/')
         .end(function(req, res) {
-          // console.log(res);
           res.should.have.status(200);
           res.text.should.equal('Not logged in')
           done();
@@ -30,7 +29,7 @@ describe('server', function() {
       chai.request(app)
         .get('/index')
         .end(function(req, res) {
-          console.log(res);
+          // console.log(res);
           res.should.have.status(200);
           res.text.should.equal('Map index')
           done();
